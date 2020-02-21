@@ -6,5 +6,6 @@ CREATE TABLE records (
     category VARCHAR(100),
     expiry_time DATETIME,
     quantity INTEGER,
-    manufacturing_time DATETIME
-)
+    manufacturing_time DATETIME,
+    uploaded_image_path VARCHAR(200)
+);
