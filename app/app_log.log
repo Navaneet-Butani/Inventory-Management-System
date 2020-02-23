@@ -748,3 +748,840 @@ werkzeug:INFO - 127.0.0.1 - - [21/Feb/2020 15:12:54] "[31m[1mPOST /insert HTTP
 2020-02-21 18:42:38,911 - werkzeug:WARNING -  * Debugger is active!
 2020-02-21 18:42:38,912 - werkzeug:INFO -  * Debugger PIN: 768-829-330
 2020-02-21 18:42:42,608 - werkzeug:INFO - 127.0.0.1 - - [21/Feb/2020 18:42:42] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-22 21:55:46,932 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 21:55:49,536 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 21:55:49,590 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 21:55:49,682 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 21:57:04,656 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:04] "[33mGET /inventory/get HTTP/1.1[0m" 404 -
+2020-02-22 21:57:06,172 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-02-22 21:57:43,054 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-22 21:57:43,055 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:43] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-22 21:57:54,938 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:54] "[35m[1mGET /inventory/search?name=Pen HTTP/1.1[0m" 500 -
+2020-02-22 21:57:55,077 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:55] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-02-22 21:57:55,090 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:55] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-02-22 21:57:55,103 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:55] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-02-22 21:57:56,229 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:56] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-02-22 21:57:56,430 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:56] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-02-22 21:57:56,697 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 21:57:56] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-02-22 22:09:06,074 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:09:06] "[33mPOST /inventory HTTP/1.1[0m" 404 -
+2020-02-22 22:09:21,760 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:09:21] "[35m[1mPOST /inventory/insert HTTP/1.1[0m" 500 -
+2020-02-22 22:11:04,493 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:11:04] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-02-22 22:11:04,518 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:11:04] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-02-22 22:11:04,529 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:11:04] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-02-22 22:11:06,150 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:11:06] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-02-22 22:11:06,220 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:11:06] "[37mGET /inventory/search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-02-22 22:13:55,315 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-22 22:13:56,144 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 22:14:05,368 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 22:14:05,420 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 22:14:05,573 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 22:15:29,139 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 22:15:31,386 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 22:15:31,398 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 22:15:31,423 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 22:15:40,191 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 22:15:40] "[35m[1mPOST /inventory/insert HTTP/1.1[0m" 500 -
+2020-02-22 23:11:02,874 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 23:11:05,080 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 23:11:05,161 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 23:11:05,205 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 23:11:18,733 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:11:18] "[35m[1mPOST /inventory/insert HTTP/1.1[0m" 500 -
+2020-02-22 23:12:11,249 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-22 23:12:11,539 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 23:12:14,398 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 23:12:14,411 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 23:12:14,434 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 23:12:18,264 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:12:18] "[35m[1mPOST /inventory/insert HTTP/1.1[0m" 500 -
+2020-02-22 23:15:12,058 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\__init__.py', reloading
+2020-02-22 23:15:12,121 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 23:15:14,539 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 23:15:14,549 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 23:15:14,572 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 23:15:34,243 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\__init__.py', reloading
+2020-02-22 23:15:34,342 - werkzeug:INFO -  * Restarting with stat
+2020-02-22 23:15:37,513 - werkzeug:WARNING -  * Debugger is active!
+2020-02-22 23:15:37,526 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-22 23:15:37,558 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-22 23:15:38,069 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:15:38] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-22 23:22:15,675 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:22:15] "[31m[1mGET /inventory/insert HTTP/1.1[0m" 405 -
+2020-02-22 23:22:47,848 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:22:47] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-22 23:23:55,769 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:23:55] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-22 23:25:36,638 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:25:36] "[37mGET /inventory/search?category=Stationary&= HTTP/1.1[0m" 200 -
+2020-02-22 23:26:37,966 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:26:37] "[37mGET /inventory/search?name=Pen&= HTTP/1.1[0m" 200 -
+2020-02-22 23:26:55,840 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:26:55] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-22 23:27:08,455 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:27:08] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-22 23:27:30,606 - werkzeug:INFO - 127.0.0.1 - - [22/Feb/2020 23:27:30] "[37mGET /inventory/search?category=Stationary&= HTTP/1.1[0m" 200 -
+2020-02-23 13:35:51,430 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:35:53,041 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:35:53,099 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:35:53,124 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:39:31,498 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:39:31] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 13:41:07,728 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:41:10,018 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:54:30,875 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:54:32,936 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:54:33,003 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:54:33,033 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:54:33,653 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:54:33] "[33mPUT /inventory/update?id=2 HTTP/1.1[0m" 404 -
+2020-02-23 13:54:57,216 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:54:57,333 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:54:59,513 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:54:59,524 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:54:59,546 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:55:02,853 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:55:02,920 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:55:04,852 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:55:04,861 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:55:04,883 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:55:07,963 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:55:07] "[37mPUT /inventory/update?id=2 HTTP/1.1[0m" 200 -
+2020-02-23 13:55:16,953 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:55:17,021 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:55:18,624 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:55:18,633 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:55:18,655 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:55:54,998 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:55:55,099 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:55:56,973 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:55:56,982 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:55:57,003 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:56:01,332 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:56:01] "[37mPUT /inventory/update?id=2 HTTP/1.1[0m" 200 -
+2020-02-23 13:56:10,224 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:56:10,304 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:56:12,663 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:56:12,673 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:56:12,697 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:57:59,388 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:58:01,464 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:58:01,475 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:58:01,521 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:58:01,603 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:58:01] "[37mPUT /inventory/update?id=2 HTTP/1.1[0m" 200 -
+2020-02-23 13:58:08,725 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:58:08] "[35m[1mPUT /inventory/update?i1d=2 HTTP/1.1[0m" 500 -
+2020-02-23 13:58:43,858 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:58:43,924 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:58:45,973 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:58:45,982 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:58:46,004 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:58:49,747 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-23 13:58:49,751 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:58:49] "[31m[1mPUT /inventory/update?i1d=2 HTTP/1.1[0m" 400 -
+2020-02-23 13:59:01,630 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:59:01,684 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:59:04,295 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:59:04,305 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:59:04,329 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 13:59:07,051 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-23 13:59:07,052 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 13:59:07] "[31m[1mPUT /inventory/update?i1d=2 HTTP/1.1[0m" 400 -
+2020-02-23 13:59:17,344 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 13:59:17,431 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 13:59:19,326 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 13:59:19,336 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 13:59:19,358 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:00:51,012 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:00:51,129 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:27:28,588 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:27:30,446 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:27:30,472 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:27:30,544 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:27:30,852 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-23 14:27:30,854 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:27:30] "[31m[1mPUT /inventory/update?id=2 HTTP/1.1[0m" 400 -
+2020-02-23 14:27:46,821 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:27:47,046 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:27:48,970 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:27:48,987 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:27:49,020 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:27:49,307 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-23 14:27:49,308 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:27:49] "[31m[1mPUT /inventory/update?id=2 HTTP/1.1[0m" 400 -
+2020-02-23 14:27:59,836 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:27:59,892 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:28:01,812 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:28:01,821 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:28:01,848 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:28:16,049 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:28:16] "[35m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 500 -
+2020-02-23 14:28:47,306 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:28:47,376 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:28:50,035 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:28:50,048 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:28:50,075 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:28:52,353 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:28:52] "[35m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 500 -
+2020-02-23 14:29:40,839 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:29:40,900 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:29:42,994 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:29:43,004 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:29:43,027 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:29:50,159 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:29:50] "[35m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 500 -
+2020-02-23 14:30:12,282 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:30:12,367 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:30:14,415 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:30:14,428 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:30:14,455 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:30:15,853 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:30:15] "[37mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-23 14:32:13,534 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:32:13] "[37mPUT /inventory/update?id=5&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-23 14:32:23,085 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:32:23] "[37mPUT /inventory/update?id=4&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-23 14:32:43,093 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:32:43] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-23 14:34:05,795 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:34:05] "[37mPUT /inventory/update?id=1&quantity=4 HTTP/1.1[0m" 200 -
+2020-02-23 14:34:14,530 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:34:14] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-23 14:34:58,828 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:34:58,890 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:35:00,598 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:35:00,608 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:35:00,632 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:35:38,809 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:35:38,864 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:35:40,771 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:35:40,783 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:35:40,809 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:42:09,006 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:42:09,093 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:42:11,455 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:42:11,465 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:42:11,489 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:45:01,978 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:45:02,079 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:45:03,994 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:45:04,004 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:45:04,025 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:45:47,184 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:45:47,242 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:45:49,050 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:45:49,060 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:45:49,082 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:45:52,380 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:45:52,432 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:45:54,255 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:45:54,264 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:45:54,286 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:45:55,421 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:45:55,473 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:45:57,106 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:45:57,116 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:45:57,138 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:46:04,715 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:46:04,766 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:46:06,546 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:46:06,556 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:46:06,577 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:47:14,761 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:47:14,813 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:47:16,492 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:47:16,502 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:47:16,524 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:48:46,996 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:48:47,077 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:48:48,806 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:48:48,816 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:48:48,838 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:49:02,997 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:49:03,051 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:49:04,917 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:49:04,926 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:49:04,948 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:50:44,256 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:50:44] "[35m[1mPUT /inventory/update?id=1&quantity=4 HTTP/1.1[0m" 500 -
+2020-02-23 14:51:00,243 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:51:00,325 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:51:02,381 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:51:02,391 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:51:02,415 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:51:08,064 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 14:51:08] "[37mPUT /inventory/update?id=1&quantity=4 HTTP/1.1[0m" 200 -
+2020-02-23 14:51:53,372 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:51:53,457 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:51:55,640 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:51:55,650 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:51:55,671 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:51:56,793 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 14:51:56,846 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:51:59,261 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:51:59,271 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:51:59,292 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:57:29,099 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:57:29,172 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:57:30,805 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:57:30,815 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:57:30,836 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:57:40,566 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:57:40,627 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:57:42,550 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:57:42,560 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:57:42,582 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 14:57:57,731 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 14:57:57,788 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 14:57:59,519 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 14:57:59,529 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 14:57:59,551 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:11:42,437 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:11:44,624 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:11:44,634 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:11:44,659 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:11:46,193 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:11:46] "[33mPOST /inventory/insert HTTP/1.1[0m" 404 -
+2020-02-23 15:11:58,175 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:11:58] "[33mPOST /inventory/insert HTTP/1.1[0m" 404 -
+2020-02-23 15:12:39,524 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:12:39] "[33mPOST /inventory/insert HTTP/1.1[0m" 404 -
+2020-02-23 15:13:17,082 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:13:17] "[33mPOST /inventory/insert/ HTTP/1.1[0m" 404 -
+2020-02-23 15:13:23,938 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:13:23] "[33mPOST /inventory/insert HTTP/1.1[0m" 404 -
+2020-02-23 15:13:41,700 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:13:42,534 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:13:42,540 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:13:42,554 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:13:46,192 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:13:46] "[33mPOST /inventory/insert HTTP/1.1[0m" 404 -
+2020-02-23 15:14:00,480 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:14:00] "[33mGET /inventory/search?name=Pen&= HTTP/1.1[0m" 404 -
+2020-02-23 15:14:06,334 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:14:06] "[33mGET /inventory/search?name=Pen&= HTTP/1.1[0m" 404 -
+2020-02-23 15:14:40,740 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:14:40,810 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:14:42,053 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:14:42,059 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:14:42,079 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:14:49,647 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:14:49] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 15:15:10,572 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:15:10] "[37mGET /inventory/search?name=Pen&= HTTP/1.1[0m" 200 -
+2020-02-23 15:15:38,076 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:15:38] "[37mGET /inventory/search?=&name=Shirt HTTP/1.1[0m" 200 -
+2020-02-23 15:16:07,178 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:16:07,218 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:16:08,326 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:16:08,332 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:16:08,349 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:16:15,365 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:16:15] "[37mGET /inventory/search?=&name=Shirt HTTP/1.1[0m" 200 -
+2020-02-23 15:16:22,214 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:16:22,258 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:16:23,166 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:16:23,172 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:16:23,189 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:16:28,890 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:16:28] "[37mGET /inventory/search?=&name=Shirt HTTP/1.1[0m" 200 -
+2020-02-23 15:16:35,936 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:16:35,974 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:16:37,315 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:16:37,321 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:16:37,337 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:16:39,867 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 15:16:39] "[33mGET /inventory/search?=&name=Shirt HTTP/1.1[0m" 404 -
+2020-02-23 15:16:43,682 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:16:43,732 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 15:16:44,680 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 15:16:44,686 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 15:16:44,709 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 15:28:00,460 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 15:28:00,724 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:00:09,088 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:00:10,859 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:00:10,946 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:00:11,122 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:00:23,977 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:00:23] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:00:41,810 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:00:41] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:00:50,795 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:00:50] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:01:03,324 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:01:03] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:03:57,324 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\common\\api_contract.py', reloading
+2020-02-23 16:03:57,574 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:03:59,557 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:03:59,567 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:03:59,588 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:04:22,039 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:04:22] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:05:45,176 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:05:45] "[37mGET /inventory/search?=&name=Shirt HTTP/1.1[0m" 200 -
+2020-02-23 16:06:49,915 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-23 16:06:49,917 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:06:49] "[31m[1mDELETE /inventory/delete?id=1 HTTP/1.1[0m" 400 -
+2020-02-23 16:07:24,268 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:07:24,323 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:07:26,069 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:07:26,082 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:07:26,112 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:07:31,845 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-23 16:07:31,847 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:07:31] "[31m[1mDELETE /inventory/delete?id=1 HTTP/1.1[0m" 400 -
+2020-02-23 16:07:58,497 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:07:58,568 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:08:00,351 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:08:00,361 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:08:00,385 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:08:06,734 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:08:06] "[37mDELETE /inventory/delete?id=1 HTTP/1.1[0m" 200 -
+2020-02-23 16:08:15,562 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:08:15,641 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:08:17,482 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:08:17,492 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:08:17,515 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:08:27,263 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:08:27,329 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:08:29,205 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:08:29,217 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:08:29,247 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:09:24,598 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:09:24,653 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:09:26,496 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:09:26,506 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:09:26,531 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:10:52,721 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:10:52,798 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:10:54,492 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:10:54,504 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:10:54,529 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:11:32,473 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:11:32,529 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:11:34,625 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:11:34,637 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:11:34,672 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:11:44,533 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:11:44,661 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:11:46,708 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:11:46,717 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:11:46,739 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:12:19,571 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:12:19,658 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:12:21,406 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:12:21,417 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:12:21,445 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:12:34,442 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:12:34,505 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:12:36,289 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:12:36,301 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:12:36,326 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:12:59,465 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:12:59,597 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:13:01,275 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:13:01,284 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:13:01,307 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:13:11,121 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:13:11,177 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:13:12,756 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:13:12,770 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:13:12,794 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:13:50,593 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:13:50,653 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:13:52,721 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:13:52,730 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:13:52,752 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:14:04,769 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:14:04,820 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:14:06,495 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:14:06,505 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:14:06,527 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:14:59,862 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:14:59,923 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:15:01,594 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:15:01,604 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:15:01,649 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:15:24,920 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:15:24,996 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:15:27,028 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:15:27,042 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:15:27,068 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:16:21,498 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:16:21] "[35m[1mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 500 -
+2020-02-23 16:17:06,064 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:17:06,146 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:17:08,148 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:17:08,158 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:17:08,183 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:17:33,189 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:17:33,260 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:17:35,003 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:17:35,015 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:17:35,042 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:17:48,324 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:17:48] "[35m[1mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 500 -
+2020-02-23 16:18:19,204 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:18:19,275 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:18:21,254 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:18:21,264 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:18:21,290 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:18:24,691 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:18:24] "[35m[1mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 500 -
+2020-02-23 16:18:42,948 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:18:43,021 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:18:44,987 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:18:44,997 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:18:45,019 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:18:45,948 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:18:45] "[37mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 200 -
+2020-02-23 16:19:23,935 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:19:23] "[37mDELETE /inventory/delete?name=Shirt&category=Fashion HTTP/1.1[0m" 200 -
+2020-02-23 16:20:23,435 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:20:23,490 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:20:25,328 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:20:25,337 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:20:25,358 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:20:27,145 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:20:27] "[31m[1mDELETE /inventory/delete?name=Shirt&category=Fashion HTTP/1.1[0m" 400 -
+2020-02-23 16:20:42,471 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:20:42] "[37mDELETE /inventory/delete?name=T-Shirt&category=Fashion HTTP/1.1[0m" 200 -
+2020-02-23 16:20:56,790 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:20:56,858 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:20:58,573 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:20:58,584 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:20:58,607 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:21:02,052 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:21:02,124 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:21:04,297 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:21:04,307 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:21:04,328 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:21:10,818 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:21:10,873 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:21:12,993 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:21:13,003 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:21:13,024 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:22:41,533 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:22:41,595 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:28:57,612 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:28:59,360 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:28:59,370 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:28:59,392 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:29:07,061 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:29:07] "[31m[1mDELETE /inventory/delete?name=T-Shirt&category=Fashion HTTP/1.1[0m" 400 -
+2020-02-23 16:29:23,616 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:29:23] "[37mDELETE /inventory/delete?name=Pen HTTP/1.1[0m" 200 -
+2020-02-23 16:30:02,232 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:30:02,314 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:30:05,203 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:30:05,213 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:30:05,235 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:30:10,676 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:30:10,770 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:30:12,945 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:30:12,955 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:30:12,977 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:30:18,466 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:30:18,527 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:30:20,655 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:30:20,668 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:30:20,697 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:30:26,142 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:30:26,223 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:30:27,957 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:30:27,967 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:30:27,988 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:30:34,456 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:30:34,520 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:30:36,617 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:30:36,627 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:30:36,650 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:51:29,588 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-23 16:51:30,461 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:51:38,040 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:51:38,063 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:51:38,187 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:55:04,847 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 16:55:04,907 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 16:55:07,331 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 16:55:07,344 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 16:55:07,368 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 16:55:18,869 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:55:18] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:55:47,306 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:55:47] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-23 16:56:10,612 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 16:56:10] "[31m[1mDELETE /inventory/delete?id=7 HTTP/1.1[0m" 400 -
+2020-02-23 23:43:27,096 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:43:27,707 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:44:19,844 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:44:22,046 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:44:22,118 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:44:22,145 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:45:03,510 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:45:03] "[35m[1mGET /inventory/search?category=Stationary&= HTTP/1.1[0m" 500 -
+2020-02-23 23:48:23,308 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:48:23,758 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:48:33,144 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:48:33,200 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:48:33,638 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:48:41,265 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:48:43,503 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:48:43,516 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:48:43,557 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:48:45,196 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:48:45] "[35m[1mGET /inventory/search?category=Stationary&= HTTP/1.1[0m" 500 -
+2020-02-23 23:50:40,699 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:50:40,760 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:50:43,404 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:50:43,428 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:50:43,480 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:51:11,596 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:51:11,656 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:51:13,862 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:51:13,873 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:51:13,894 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:51:22,731 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:51:24,800 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:51:24,822 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:51:24,871 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:51:30,888 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:51:30] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-23 23:53:03,495 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:53:03,650 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:53:05,963 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:53:05,975 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:53:06,035 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:53:30,194 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:53:32,415 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:53:32,427 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:53:32,458 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:53:32,894 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:53:32] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-23 23:54:47,809 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:54:47,890 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:54:50,689 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:54:50,713 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:54:50,766 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:54:58,748 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:55:01,419 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:55:01,430 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:55:01,454 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:55:02,348 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:55:02] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-23 23:55:10,737 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:55:10,805 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:55:13,102 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:55:13,115 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:55:13,143 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:55:17,606 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:55:20,070 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:55:20,085 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:55:20,117 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:55:21,149 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:55:21] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-23 23:58:18,730 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:58:18,797 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:58:21,485 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:58:21,506 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:58:21,566 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:58:30,901 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:58:31,044 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:58:33,183 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:58:33,192 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:58:33,215 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:58:43,555 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:58:43,687 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:58:46,501 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:58:46,515 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:58:46,545 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:58:51,983 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:58:54,170 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:58:54,184 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:58:54,211 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-23 23:58:56,556 - werkzeug:INFO - 127.0.0.1 - - [23/Feb/2020 23:58:56] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-23 23:59:27,427 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-23 23:59:27,505 - werkzeug:INFO -  * Restarting with stat
+2020-02-23 23:59:29,510 - werkzeug:WARNING -  * Debugger is active!
+2020-02-23 23:59:29,520 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-23 23:59:29,542 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:00:17,651 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:00:17,725 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:00:20,750 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:00:20,762 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:00:20,784 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:00:26,313 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:00:26] "[35m[1mGET /inventory/search?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-24 00:00:51,727 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:00:51,808 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:00:54,112 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:00:54,138 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:00:54,182 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:04:32,281 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:04:32,353 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:13:31,513 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:13:33,932 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:13:33,944 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:13:33,969 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:13:34,754 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:13:34] "[37mGET /inventory/search?category=Stationary HTTP/1.1[0m" 200 -
+2020-02-24 00:14:16,632 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:14:16,814 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:14:19,155 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:14:19,169 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:14:19,204 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:14:40,660 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:14:40] "[35m[1mDELETE /inventory/delete?category=Stationary HTTP/1.1[0m" 500 -
+2020-02-24 00:14:51,666 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:14:51,729 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:14:54,209 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:14:54,231 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:14:54,295 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:15:28,152 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:15:28] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:15:53,680 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:15:53,764 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:15:55,916 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:15:55,935 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:15:55,968 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:15:59,334 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:15:59,394 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:16:01,916 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:16:01,928 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:16:01,957 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:16:24,329 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:16:24,403 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:16:26,993 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:16:27,020 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:16:27,078 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:16:31,503 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:16:31] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:16:55,022 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:16:55,103 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:16:57,460 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:16:57,470 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:16:57,492 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:16:59,725 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:16:59] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:17:14,229 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:17:14,288 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:17:16,392 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:17:16,402 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:17:16,428 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:17:36,796 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:17:36,862 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:17:38,941 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:17:38,963 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:17:39,011 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:17:45,853 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:17:45,925 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:17:48,027 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:17:48,042 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:17:48,072 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:17:51,803 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:17:51] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:18:22,626 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:18:22,710 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:18:24,880 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:18:24,893 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:18:24,922 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:24:54,188 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:24:54,299 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:24:56,651 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:24:56,673 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:24:56,723 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:25:15,743 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:25:15,809 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:25:18,315 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:25:18,329 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:25:18,351 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:25:19,511 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:25:19,578 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:25:21,864 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:25:21,877 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:25:21,923 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:26:16,134 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:26:16,216 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:26:18,422 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:26:18,435 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:26:18,466 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:26:38,657 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:26:38,728 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:26:40,766 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:26:40,776 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:26:40,799 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:26:51,336 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:26:51,475 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:26:53,961 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:26:53,976 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:26:54,009 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:26:59,747 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:26:59,819 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:27:02,375 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:27:02,384 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:27:02,407 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:27:34,188 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:27:34,246 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:27:36,765 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:27:36,786 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:27:36,817 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:28:09,648 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:28:09,707 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:32:15,428 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:32:18,003 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:32:18,016 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:32:18,047 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:32:20,377 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:32:20] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:32:54,479 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:32:54] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 00:32:58,819 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:32:58] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:33:35,592 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:33:35,676 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:34:53,361 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:34:55,608 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:34:55,617 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:34:55,640 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:34:59,047 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:34:59] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:35:44,882 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:35:44,962 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:35:47,209 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:35:47,223 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:35:47,254 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:36:06,603 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:36:06,662 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:36:09,717 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:36:09,735 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:36:09,769 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:36:18,759 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:36:18,830 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:36:20,683 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:36:20,705 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:36:20,756 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:36:45,884 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:36:45] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:37:37,969 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:37:38,041 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:37:40,412 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:37:40,426 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:37:40,472 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:37:42,733 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:37:42,806 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:38:18,658 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:38:21,086 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:38:21,099 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:38:21,125 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:38:21,346 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:38:21] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:38:58,796 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:38:58,872 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:01,054 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:01,068 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:01,097 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:39:04,585 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:39:04,655 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:06,726 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:06,737 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:06,762 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:39:18,081 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:39:18,136 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:20,336 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:20,346 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:20,371 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:39:28,333 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:39:28,468 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:31,206 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:31,232 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:31,294 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:39:33,621 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:39:33,696 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:36,091 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:36,101 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:36,124 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:39:38,470 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:39:38,566 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:39:40,886 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:39:40,897 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:39:40,920 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:46:22,234 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:46:22,297 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:46:24,856 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:46:24,867 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:46:24,893 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:46:28,258 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:46:28,315 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:46:30,538 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:46:30,554 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:46:30,590 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:47:09,584 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-24 00:47:09,639 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:47:12,056 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:47:12,066 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:47:12,122 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:47:20,910 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:47:20] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 00:47:42,555 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:47:42,637 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:47:45,288 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:47:45,312 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:47:45,363 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:47:47,863 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:47:47,968 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:47:50,382 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:47:50,392 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:47:50,413 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:48:16,414 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:48:16] "[35m[1mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 500 -
+2020-02-24 00:49:35,966 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:49:36,023 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:49:38,670 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:49:38,690 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:49:38,749 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:49:43,460 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:49:43,545 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:49:45,729 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:49:45,746 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:49:45,777 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:49:49,447 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:49:49,520 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:49:52,076 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:49:52,086 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:49:52,114 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:49:59,082 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\db.py', reloading
+2020-02-24 00:49:59,184 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:50:01,433 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:50:01,446 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:50:01,477 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:50:12,329 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:50:12] "[31m[1mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 400 -
+2020-02-24 00:50:27,634 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 00:50:27] "[37mDELETE /inventory/delete?category=Stationary HTTP/1.1[0m" 200 -
+2020-02-24 00:52:07,429 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-24 00:52:07,513 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:52:10,256 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:52:10,266 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:52:10,290 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:53:16,965 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-24 00:53:17,039 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:53:19,537 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:53:19,551 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:53:19,577 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 00:53:20,742 - werkzeug:INFO -  * Detected change in 'D:\\Flask\\Project\\Inventory-Management-System\\app\\resource\\views.py', reloading
+2020-02-24 00:53:20,811 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 00:53:23,017 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 00:53:23,038 - werkzeug:INFO -  * Debugger PIN: 107-706-979
+2020-02-24 00:53:23,084 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

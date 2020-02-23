@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS records;
 
 CREATE TABLE records (
     id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -7,5 +7,5 @@ CREATE TABLE records (
     expiry_time DATETIME,
     quantity INTEGER,
     manufacturing_time DATETIME,
-    uploaded_image_path VARCHAR(200)
+    uploaded_image_name VARCHAR(200)
 );

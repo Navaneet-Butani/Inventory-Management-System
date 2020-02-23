@@ -1,16 +1,14 @@
-from werkzeug.utils import redirect, secure_filename
 from app.common.api_contract import *
 from app.service.inventory import *
 from flask import request, jsonify, Response
-from flask_restful import Resource, marshal, fields
+from flask_restful import Resource, marshal
 from app import app, api, UPLOAD_IMAGE_PATH, logger
 from app.db import *
 from datetime import datetime
 import os
 import time
-import json
 
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 
 def allowed_file(filename):
@@ -20,7 +18,6 @@ def allowed_file(filename):
 
 def get_image_name(filename):
     time_str = time.strftime("%Y%m%d-%H%M%S")
-    print("'inventory_image'+timestr+filename.rsplit('.', 1)[1].lower():", 'inventory_image'+time_str+filename.rsplit('.', 1)[1].lower())
     return 'inventory_image'+time_str+"."+filename.rsplit('.', 1)[1].lower()
 
 
@@ -63,20 +60,56 @@ class SearchInventoryRecords(Resource):
 
         if not is_valid:
             logger.warning("INVALID REQUEST DATA FOUND!")
-            error_msg = "Invalid request data found! Search parameter should br like name(value = String), " \
+            error_msg = "Invalid request data found! Search parameter should be like name(value = String), " \
                         "category(value = String)"
             return Response(error_msg, status=400)
 
-        print("name:", name)
-        print(category)
         records = retrieve_record(name=name, category=category)
         response_data = []
-        print("records:", records)
         for record in records:
             data = marshal(record, fields=get_request_fields)
             data['is_expired'] = datetime.now() > record['expiry_time']
             data['uploaded_image_path'] = os.path.join(UPLOAD_IMAGE_PATH, data['uploaded_image_name'])
             del data['uploaded_image_name']
             response_data.append(data)
-        print("response_data:", response_data)
         return jsonify(response_data)
+
+
+@api.route('/inventory/update')
+class UpdateInventoryRecords(Resource):
+    def put(self):
+        id = request.args.get('id')
+        quantity = request.args.get('quantity')
+        if not id or not quantity:
+            logger.warning("INVALID REQUEST FOR UPDATE RECORDS!")
+            error_msg = "Invalid request data found! Search parameter should be like id(value = Integer), " \
+                        "quantity(value = Integer)"
+            return Response(error_msg, status=400)
+        else:
+            updated_rows_count = update_records(id, quantity)
+            if updated_rows_count == 0:
+                message = "No records available for id:{}".format(id)
+                return Response(message, status=400)
+            message = "{} rows are updated for id:{}".format(updated_rows_count, id)
+            return Response(message, status=200)
+
+
+@api.route('/inventory/delete')
+class DeleteInventoryRecords(Resource):
+    def delete(self):
+        id = request.args.get('id')
+        name = request.args.get('name')
+        category = request.args.get('category')
+        if not id and not name and not category:
+            logger.warning("INVALID REQUEST FOR DELETE RECORDS!")
+            error_msg = "Invalid request data found! Parameter should be like id(value = Integer), " \
+                        "or name(value = Integer) or category(value = Integer) or name(value = Integer), " \
+                        "category(value = Integer)"
+            return Response(error_msg, status=400)
+        else:
+            is_deleted, message = delete_records(id, name, category)
+            if is_deleted:
+                status_code = 200
+            else:
+                status_code = 400
+            return Response(message, status=status_code)
