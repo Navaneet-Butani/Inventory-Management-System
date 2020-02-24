@@ -1,5 +1,4 @@
 venv/
 .idea
 *.pyc
-inventory/
-upload/
+app_log.log
