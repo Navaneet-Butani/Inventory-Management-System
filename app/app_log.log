@@ -1585,3 +1585,388 @@ werkzeug:INFO - 127.0.0.1 - - [21/Feb/2020 15:12:54] "[31m[1mPOST /insert HTTP
 2020-02-24 00:53:23,017 - werkzeug:WARNING -  * Debugger is active!
 2020-02-24 00:53:23,038 - werkzeug:INFO -  * Debugger PIN: 107-706-979
 2020-02-24 00:53:23,084 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 09:16:58,648 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 09:16:58,654 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:16:59,836 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:16:59,866 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:18:29,605 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:18:29] "[37mGET /inventory/search?category=Stationary&name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 09:20:02,823 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:20:02] "[37mGET /inventory/search?category=Stationary HTTP/1.1[0m" 200 -
+2020-02-24 09:20:23,572 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:20:23] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 09:20:35,210 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 09:20:35,212 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:20:35] "[31m[1mGET /inventory/search?id=5 HTTP/1.1[0m" 400 -
+2020-02-24 09:25:42,765 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:25:42] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 09:26:15,311 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:26:15] "[37mGET /inventory/search?category=Tools HTTP/1.1[0m" 200 -
+2020-02-24 09:26:42,195 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:26:42] "[37mGET /inventory/search?name=Pen&category=Tools HTTP/1.1[0m" 200 -
+2020-02-24 09:28:31,045 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:28:31] "[35m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 500 -
+2020-02-24 09:29:26,296 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:29:26,396 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:29:28,237 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:29:28,239 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:29:33,142 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 09:29:33,145 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:29:34,080 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:29:34,081 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:29:37,067 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:29:37] "[37mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 09:33:00,380 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:33:00,463 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:33:01,444 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:33:01,445 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:33:09,515 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:33:09] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:33:22,897 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:33:22] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:33:34,022 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:33:34,112 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:33:35,159 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:33:35,160 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:33:38,897 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:33:38] "[35m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 500 -
+2020-02-24 09:33:52,450 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:33:52,525 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:33:53,373 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:33:53,374 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:34:03,589 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:34:03,681 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:34:04,694 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:34:04,695 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:34:07,215 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:34:07] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:34:41,318 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:34:41,393 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:34:42,437 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:34:42,438 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:34:45,120 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:34:45] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:35:10,955 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:35:11,028 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:35:11,866 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:35:11,867 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:36:07,849 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:36:07,971 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:36:09,050 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:36:09,051 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:36:19,069 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:36:19] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:36:20,826 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:36:20] "[31m[1mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 09:37:36,541 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:37:36,604 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:37:37,524 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:37:37,525 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:37:57,860 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:37:57,947 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:37:58,774 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:37:58,775 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:39:00,893 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:39:00,967 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:39:01,801 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:39:01,802 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:39:08,931 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:39:08,994 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:39:10,044 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:39:10,045 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:39:14,858 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:39:14] "[37mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 09:41:28,511 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:41:28,571 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:41:29,453 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:41:29,454 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:42:30,496 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:42:30,571 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:42:31,467 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:42:31,467 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:42:35,533 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:42:35,609 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:42:36,429 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:42:36,430 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:42:46,482 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:42:46] "[37mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 09:43:17,132 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 09:43:17,191 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:43:18,161 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:43:18,162 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:43:20,555 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:43:20] "[37mPUT /inventory/update?id=2&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 09:44:44,305 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:44:44] "[35m[1mDELETE /inventory/delete?id=1=&id=1 HTTP/1.1[0m" 500 -
+2020-02-24 09:48:58,987 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:48:59,062 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:49:00,042 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:49:00,043 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:49:06,774 - werkzeug:INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-24 09:49:06,778 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:49:07,660 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:49:07,662 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:49:09,646 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:49:09] "[35m[1mDELETE /inventory/delete?id=1=&id=1 HTTP/1.1[0m" 500 -
+2020-02-24 09:49:31,135 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:49:31,208 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:49:32,169 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:49:32,170 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:49:33,216 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:49:33,294 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:49:34,201 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:49:34,202 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:49:46,421 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:49:46,494 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:49:47,342 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:49:47,343 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:49:51,084 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:49:51] "[35m[1mDELETE /inventory/delete?id=1=&id=1 HTTP/1.1[0m" 500 -
+2020-02-24 09:51:01,501 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:51:01,575 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:51:02,487 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:51:02,488 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:57:53,709 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:57:53,805 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:57:54,650 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:57:54,650 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:58:10,925 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 09:58:11,002 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 09:58:11,925 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 09:58:11,926 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 09:58:20,777 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 09:58:20] "[37mDELETE /inventory/delete?id=1 HTTP/1.1[0m" 200 -
+2020-02-24 10:00:40,659 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:00:40] "[31m[1mDELETE /inventory/update?id=4&quantity=40 HTTP/1.1[0m" 405 -
+2020-02-24 10:00:47,199 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:00:47] "[37mPUT /inventory/update?id=4&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 10:02:30,318 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:02:30] "[37mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 200 -
+2020-02-24 10:03:54,230 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:03:54] "[37mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 200 -
+2020-02-24 10:04:39,608 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:04:39] "[37mDELETE /inventory/delete?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 10:05:09,495 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:05:09] "[37mDELETE /inventory/delete?name=Book&category=Stationary HTTP/1.1[0m" 200 -
+2020-02-24 10:05:44,787 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:05:44,863 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:05:45,869 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:05:45,870 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:07:56,356 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:07:56] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:08:04,059 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:08:04] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:12:14,376 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:12:14] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:13:54,101 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:13:54,178 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:13:55,170 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:13:55,171 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:13:58,390 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:13:58] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:16:03,875 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:16:03] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:16:44,058 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:16:44,126 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:16:44,965 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:16:44,966 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:16:46,807 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:16:46] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:17:12,396 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:17:12,471 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:17:13,348 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:17:13,349 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:17:19,457 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:17:19] "[35m[1mPOST /inventory/insert HTTP/1.1[0m" 500 -
+2020-02-24 10:17:54,089 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:17:54,156 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:17:54,996 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:17:54,998 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:18:38,717 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:18:38,793 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:18:39,682 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:18:39,683 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:18:44,779 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:18:44,840 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:18:45,680 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:18:45,681 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:18:57,184 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:18:57,187 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:18:57] "[31m[1mPOST /inventory/insert HTTP/1.1[0m" 400 -
+2020-02-24 10:20:54,980 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:20:54,981 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:20:54] "[31m[1mPOST /inventory/insert HTTP/1.1[0m" 400 -
+2020-02-24 10:21:23,369 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:21:23,460 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:21:24,363 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:21:24,364 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:21:55,812 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:21:55] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 10:22:40,677 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:22:40,751 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:22:41,795 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:22:41,796 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:23:05,712 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:23:05] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 10:23:10,282 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:23:10,284 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:23:10] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-24 10:23:39,821 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:23:39] "[37mPUT /inventory/update?id=1&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 10:23:53,743 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-24 10:23:53,744 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:23:53] "[31m[1mPUT /inventory/update?quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 10:25:16,101 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-24 10:25:16,103 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:25:16] "[31m[1mDELETE /inventory/delete HTTP/1.1[0m" 400 -
+2020-02-24 10:26:28,654 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:26:28,722 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:26:29,548 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:26:29,549 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:26:39,310 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-24 10:26:39,312 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:26:39] "[31m[1mDELETE /inventory/delete HTTP/1.1[0m" 400 -
+2020-02-24 10:30:24,641 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:30:24,719 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:30:25,545 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:30:25,546 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:30:32,674 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:30:32,746 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:30:33,629 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:30:33,630 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:30:38,717 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:30:38,776 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:30:39,682 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:30:39,684 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:31:31,627 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:31:31,691 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:31:32,496 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:31:32,497 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:32:07,027 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:32:07,107 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:32:08,047 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:32:08,048 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:32:55,860 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:32:55,924 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:32:56,747 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:32:56,748 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:33:15,085 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:33:15,164 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:33:16,009 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:33:16,010 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:33:28,952 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:33:28,954 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:33:28] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-24 10:33:42,420 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:33:42,491 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:33:43,408 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:33:43,408 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:33:45,209 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:33:45,211 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:33:45] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-24 10:33:49,250 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:33:49,252 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:33:49] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-24 10:34:05,586 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:34:05,587 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:34:05] "[31m[1mGET /inventory/search?nam=Pen HTTP/1.1[0m" 400 -
+2020-02-24 10:34:46,489 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:34:46,553 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:34:47,387 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:34:47,388 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:35:39,284 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:35:39,350 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:35:40,193 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:35:40,194 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:38:42,477 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:38:42,552 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:38:43,449 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:38:43,450 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:39:36,296 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:39:36,362 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:39:37,203 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:39:37,204 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:39:59,574 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:39:59,641 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:40:00,492 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:40:00,493 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:40:14,712 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:40:14,778 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:40:15,651 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:40:15,652 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:40:51,252 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:40:51,323 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:40:52,130 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:40:52,131 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:42:19,583 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:42:19,649 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:42:20,473 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:42:20,474 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:42:59,088 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/resource/views.py', reloading
+2020-02-24 10:42:59,165 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:42:59,993 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:42:59,994 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:43:20,360 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:43:20,437 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:43:21,311 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:43:21,312 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:43:23,359 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:43:23,432 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:43:24,286 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:43:24,287 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:43:55,776 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:43:55,836 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:43:56,659 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:43:56,660 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:44:16,997 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:44:17,068 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:44:17,863 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:44:17,864 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:44:19,920 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:44:19,985 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:44:20,857 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:44:20,859 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:44:23,923 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:44:23,981 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:44:24,826 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:44:24,827 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:44:38,010 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:44:38,076 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:44:38,939 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:44:38,940 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:45:00,250 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:45:00,327 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:45:01,187 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:45:01,187 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:45:17,452 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:45:17,531 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:45:18,389 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:45:18,390 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:45:37,699 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:45:37,763 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:45:38,599 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:45:38,600 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:45:56,886 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:45:56,964 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:45:57,867 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:45:57,867 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:46:25,335 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:46:25,410 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:46:26,293 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:46:26,294 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:46:32,394 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:46:32,455 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:46:33,286 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:46:33,286 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:46:39,371 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:46:39,437 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:46:40,341 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:46:40,342 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:47:08,854 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:47:08,912 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:47:09,721 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:47:09,722 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:47:34,106 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:47:34,164 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:47:34,972 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:47:34,973 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:47:55,323 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:47:55,394 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:47:56,214 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:47:56,215 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:48:21,619 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:48:21,688 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:48:22,597 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:48:22,599 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:48:48,033 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:48:48,105 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:48:48,941 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:48:48,942 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:49:00,125 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/db.py', reloading
+2020-02-24 10:49:00,188 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:49:00,995 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:49:00,996 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:50:00,660 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:50:00] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:50:18,489 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:50:18] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:51:06,942 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:51:07,001 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:51:07,830 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:51:07,831 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:51:26,139 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/service/inventory.py', reloading
+2020-02-24 10:51:26,212 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:51:27,018 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:51:27,019 - werkzeug:INFO -  * Debugger PIN: 326-262-191
+2020-02-24 10:51:29,881 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:51:29,883 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:29] "[31m[1mPOST /inventory/insert HTTP/1.1[0m" 400 -
+2020-02-24 10:51:39,708 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:39] "[37mPOST /inventory/insert HTTP/1.1[0m" 200 -
+2020-02-24 10:51:45,423 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:45] "[37mGET /inventory/search?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 10:51:50,851 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:50] "[37mGET /inventory/search?category=Tools HTTP/1.1[0m" 200 -
+2020-02-24 10:51:54,409 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:54] "[37mGET /inventory/search?name=Pen&category=Stationary HTTP/1.1[0m" 200 -
+2020-02-24 10:51:59,236 - root:WARNING - INVALID REQUEST DATA FOUND!
+2020-02-24 10:51:59,238 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:51:59] "[31m[1mGET /inventory/search HTTP/1.1[0m" 400 -
+2020-02-24 10:52:03,212 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:03] "[37mPUT /inventory/update?id=1&quantity=40 HTTP/1.1[0m" 200 -
+2020-02-24 10:52:10,009 - root:WARNING - INVALID REQUEST FOR UPDATE RECORDS!
+2020-02-24 10:52:10,010 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:10] "[31m[1mPUT /inventory/update?quantity=40 HTTP/1.1[0m" 400 -
+2020-02-24 10:52:36,550 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-24 10:52:36,552 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:36] "[31m[1mDELETE /inventory/delete HTTP/1.1[0m" 400 -
+2020-02-24 10:52:41,121 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:41] "[31m[1mDELETE /inventory/delete?id=2 HTTP/1.1[0m" 400 -
+2020-02-24 10:52:46,808 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:46] "[31m[1mDELETE /inventory/delete?category=Fashion HTTP/1.1[0m" 400 -
+2020-02-24 10:52:50,155 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:50] "[37mDELETE /inventory/delete?name=Pen HTTP/1.1[0m" 200 -
+2020-02-24 10:52:53,704 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:53] "[31m[1mDELETE /inventory/delete?name=Book&category=Stationary HTTP/1.1[0m" 400 -
+2020-02-24 10:52:57,368 - root:WARNING - INVALID REQUEST FOR DELETE RECORDS!
+2020-02-24 10:52:57,371 - werkzeug:INFO - 127.0.0.1 - - [24/Feb/2020 10:52:57] "[31m[1mDELETE /inventory/delete HTTP/1.1[0m" 400 -
+2020-02-24 10:53:13,754 - werkzeug:INFO -  * Detected change in '/home/mtech/Flask/Project/Inventory-Management-System/inventory_management_system/app/common/api_contract.py', reloading
+2020-02-24 10:53:13,816 - werkzeug:INFO -  * Restarting with stat
+2020-02-24 10:53:14,697 - werkzeug:WARNING -  * Debugger is active!
+2020-02-24 10:53:14,698 - werkzeug:INFO -  * Debugger PIN: 326-262-191

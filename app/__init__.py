@@ -9,8 +9,7 @@ app = Flask(__name__)
 api = Api(app)
 api.route = types.MethodType(api_route, api)
 
-# UPLOAD_IMAGE_PATH = os.path.join(app.root_path, 'upload/inventory')
-UPLOAD_IMAGE_PATH = os.path.join(app.root_path, 'upload\inventory')
+UPLOAD_IMAGE_PATH = os.path.join(app.root_path, 'upload/inventory')
 LOGGING_PATH = os.path.join(app.root_path)
 
 log_file_name = os.path.join(LOGGING_PATH, 'app_log.log')

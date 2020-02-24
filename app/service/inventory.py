@@ -1,5 +1,6 @@
 def get_insert_request_data(request):
-    if "File" in request.files and ("name" and "category" and "quantity") in request.form:
+    # Validate required request data is available or not
+    if "File" in request.files and "name" in request.form and "category" in request.form and "quantity" in request.form:
         request_data = {}
         file = request.files['File']
         request_data['name'] = request.form.get('name')
@@ -10,6 +11,7 @@ def get_insert_request_data(request):
 
 
 def get_search_request_data(request):
+    # Validate required request data is available or not
     name = request.args.get('name')
     category = request.args.get('category')
     if name or category:
